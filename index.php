@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paragraph</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Inserisci un paragrafo e la parola da censurare</h1>
+    <h1>INSERISCI UN PARAGRAFO E LA PAROLA DA CENSURARE</h1>
 
     <form action="result.php" method="GET">
         <label for="paragraph">Inserisci un paragrafo</label>
@@ -15,7 +16,7 @@
         <label for="censur">Censura questa parola</label>
         <input type="text" id="censur" name="censur">
 
-        <button type="submit">INVIA</button>
+        <button type="submit">CENSURA</button>
     </form>
 </body>
 </html>
