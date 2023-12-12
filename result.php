@@ -20,7 +20,6 @@
     <p>Il testo è lungo: <?php echo strlen($paragraph); ?> caratteri</p>
     <h2>Testo censurato</h2>
     <p><?php echo $censored_text; ?></p>
-    <p>Il testo è lungo: <?php echo strlen($censored_text); ?> caratteri</p>
-    
+    <p>Il testo è lungo: <?php echo strlen($censored_text); ?> caratteri</p> 
 </body>
 </html>

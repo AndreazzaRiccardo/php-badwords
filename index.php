@@ -11,7 +11,7 @@
 
     <form action="result.php" method="GET">
         <label for="paragraph">Inserisci un paragrafo</label>
-        <input type="text" id="paragraph" name="paragraph">
+        <textarea name="paragraph" id="paragraph" cols="50" rows="10"></textarea>
 
         <label for="censur">Censura questa parola</label>
         <input type="text" id="censur" name="censur">

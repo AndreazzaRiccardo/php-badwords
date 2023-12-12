@@ -35,3 +35,8 @@ button {
     padding: .3rem 1rem;
 }
 
+textarea {
+    padding: .5rem;
+    resize: none;
+}
+
